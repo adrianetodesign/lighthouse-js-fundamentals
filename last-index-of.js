@@ -11,7 +11,7 @@ function should return -1.
 
 const lastIndexOf = function(arr, num) {
   let lastIndex = -1;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === num) {
       lastIndex = i;
     }

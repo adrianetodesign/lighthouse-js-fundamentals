@@ -6,14 +6,14 @@ Adrian To
 
 const range = function(start, end, step) {
   let finalArray = [];
-  if (start === undefined || end === undefined || step === undefined) {
+  if (start == undefined || end == undefined || step == undefined) {
     return undefined;
   } else if (start > end) {
     return undefined;
   } else if (step <= 0) {
     return undefined;
   } else {
-    for (let i = start; i <= end; i + step) {
+    for (let i = start; i <= end; i += step) {
       finalArray.push(i);
     }
   }

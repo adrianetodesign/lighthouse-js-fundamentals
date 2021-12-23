@@ -40,7 +40,7 @@ const metric = 'redness'
 const judgeVegetable = function(vegetables, metric) {
   let winner = "";
   let highest = 0;
-  for (let i =0; i < vegetables.length; i++) {
+  for (let i = 0; i < vegetables.length; i++) {
     if (vegetables[i][metric] > highest) {
       winner = vegetables[i].submitter;
       highest = vegetables[i][metric];
